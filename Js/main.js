@@ -1,3 +1,4 @@
+//declaring card object array
 var cards = [
 	{
 		rank: "queen",
@@ -45,6 +46,6 @@ var flipCard = function (cardId){
 	console.log(cards[cardId].suit);
 	checkForMatch();
 	}
-
+//mimmicking user input
 flipCard(0);
 flipCard(2);
