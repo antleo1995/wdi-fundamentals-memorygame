@@ -57,6 +57,7 @@ var createBoard = function (){
 		cardElement.setAttribute('data-id', i);
 		cardElement.addEventListener("click", flipCard);
 		document.getElementById("game-board").appendChild(cardElement);
+		//a check i put in place to see the board being built
 		console.log("Adding Card " + i);
 	}
 }
